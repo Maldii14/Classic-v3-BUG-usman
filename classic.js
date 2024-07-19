@@ -978,8 +978,8 @@ let messg = `
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
     \`𝘾𝙇𝘼𝙎𝙎𝙄𝘾-𝙑3 𝘽𝙐𝙂\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-   ✰ 𝐒𝐜 𝐏𝐮𝐛𝐥𝐢𝐜 ❴ 𝐵𝑌 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒 ❵
-   ✰ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+   ✰ 𝐒𝐜 𝐏𝐮𝐛𝐥𝐢𝐜 ❴ Maldives mak ❵
+   ✰ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: M.m
    ✰ 𝐔𝐬𝐞𝐫 : @${m.sender.split('@')[0]}
  
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -1002,9 +1002,9 @@ let messg = `
      ⦁𝐌𝐞𝐧𝐮𝐭𝐲𝐩𝐞
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬     
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©𝕶𝖎𝖓𝖌 𝕾𝖆𝖒 `
+© Maldii mak`
 
-global.logo = "https://telegra.ph/file/6dfde4263655a81572a68.jpg"
+global.logo = "https://telegra.ph/file/ea1de82bebf3843128883.jpg"
 global.vidmenu = "https://telegra.ph/file/a45bcd846c54a1a52fd2a.mp4"
 if(menutype === "v1") {
         let buttonMessage = {
@@ -1062,7 +1062,7 @@ image: cewegw,
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }
@@ -1089,7 +1089,7 @@ image: cewegw,
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }
@@ -1140,7 +1140,7 @@ image: cewegw,
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }
@@ -1178,7 +1178,7 @@ image: cewegw,
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }
@@ -1240,7 +1240,7 @@ image: cewegw,
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }
@@ -1295,7 +1295,7 @@ image: cewegw,
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }
@@ -1378,7 +1378,7 @@ image: cewegw,
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }
@@ -1566,7 +1566,7 @@ image: cewegw,
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }
@@ -1617,7 +1617,7 @@ image: cewegw,
   body: '༐༑⿻⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺',showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }
@@ -1716,7 +1716,7 @@ image: cewegw,
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }
@@ -1750,7 +1750,7 @@ image: cewegw,
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
+  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
   sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
   }}
   }

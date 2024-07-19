@@ -36,11 +36,11 @@ global.author = '༻࿇𝐊𝐈𝐍𝐆_𝐒𝐀𝐌❖༺' // ubah aja ini nama
 global.prefa = ['','!','.',',','🐤','🗿']
 global.sessionName = 'classicsession'  //Gausah Juga
 global.sp = '⭔' // Gausah Juga
-global.autoviewstatus = process.env.autoviewstatus || "true"
+global.autoviewstatus = process.env.autoviewstatus || "false"
 global.wlcm = []
 global.wlcmm = []
 global.anticall = true
-global.rn = 'typing'
+global.rn = 'available'
 /*
 Declaring Menu type
 

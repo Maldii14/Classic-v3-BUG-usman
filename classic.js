@@ -225,24 +225,24 @@ const contactsss = JSON.parse(fs.readFileSync("./pushkont/contacts.json"))
 const svcontact = JSON.parse(fs.readFileSync("./pushkont/svcontact.json"))
 const isContacts = contactsss.includes(m.sender)
 	    const moment = require("moment-timezone")
-const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss")
+const time2 = moment().tz("Africa/Nairobi").format("HH:mm:ss")
 if(time2 < "20:00:00"){
-var ucapanWaktu = "𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐌𝐚𝐥𝐚𝐦"
+var ucapanWaktu = "Good night 💤🌉"
 }
 if(time2 < "18:00:00"){
-var ucapanWaktu = "𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐏𝐞𝐭𝐚𝐧𝐠"
+var ucapanWaktu = "Good evening 🌃"
  }
 if(time2 < "15:00:00"){
-var ucapanWaktu = "𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐒𝐨𝐫𝐞"
+var ucapanWaktu = "Good evening 🌆"
  }
 if(time2 < "12:00:00"){
-var ucapanWaktu = "𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐒𝐢𝐚𝐧𝐠"
+var ucapanWaktu = "Good afternoon 😴"
 }
 if(time2 < "06:00:00"){
-var ucapanWaktu = "𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐏𝐚𝐠𝐢"
+var ucapanWaktu = "Good morning my guy 👋"
  }
 if(time2 < "05:00:00"){
-var ucapanWaktu = "𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐌𝐚𝐥𝐚𝐦"
+var ucapanWaktu = "Wow 🙀 are you online this early "
 }
 const wib = moment(Date.now()).tz("Africa/Nairobi").locale("id").format("HH:mm:ss z")
 const wita = moment(Date.now()).tz("Africa/Nairobi").locale("id").format("HH:mm:ss z")
@@ -301,33 +301,33 @@ return zetsubo.sendMessage(from, { text: teks, contextInfo:{"externalAdReply": {
 
 const zetsreply = async (teks) => {
 	    zetsubo.sendMessage(from, { text:teks, contextInfo: {externalAdReply : {
-        title : `⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺`,
-        body : `⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉`,
+        title : `WA BOT`,
+        body : `MALDII MAK`,
         renderLargerThumbnail:false,
         showAdAttribution: true, 
-        mediaUrl: `https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg`,
+        mediaUrl: `https://www.instagram.com/maldives_mak?igsh=NThoNXVjaWl0cHh6`,
         mediaType: 2, 
         thumbnail:sangean
         }}}, { quoted: zets })}
 
 const virgamreply = async (teks) => {
 	    zetsubo.sendMessage(bnnd, { text:teks, contextInfo: {externalAdReply : {
-        title : `⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺`,
-        body : `⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉⸙⫺`,
+        title : `WA BOT`,
+        body : `MALDII MAK`,
         renderLargerThumbnail:false,
         showAdAttribution: true, 
-        mediaUrl: `https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+        mediaUrl: `https://www.instagram.com/maldives_mak?igsh=NThoNXVjaWl0cHh6`,
         mediaType: 2, 
         thumbnail:virgam
         }}}, { quoted: kalgans })}
 
 const genreply = async (teks) => {
 	    zetsubo.sendMessage(from, { text:teks, contextInfo: {externalAdReply : {
-        title : `⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺`,
-        body : `⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉`,
+        title : `WA BOT`,
+        body : `MALDII MAK`,
         renderLargerThumbnail:false,
         showAdAttribution: true, 
-        mediaUrl: `https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+        mediaUrl: `https://www.instagram.com/maldives_mak?igsh=NThoNXVjaWl0cHh6`,
         mediaType: 2, 
         thumbnail:hinachan
         }}}, { quoted: zets })} 
@@ -404,9 +404,9 @@ reply(`${err}`)
 async function loading () {
 var hawemod = [
 
-` ★彡 𝘾𝙇𝘼𝙎𝙎𝙄𝘾 𝙑3 彡★ `
+` ★ WA BOT `
 ]
-let { key } = await zetsubo.sendMessage(from, {text: '@⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺.....'})//Pengalih isu
+let { key } = await zetsubo.sendMessage(from, {text: '@KING WA BOT.....'})//Pengalih isu
 
 for (let i = 0; i < hawemod.length; i++) {
 /*await delay(10)*/
@@ -460,7 +460,7 @@ var etc = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 viewOnceMessage: {
 message: {
   "liveLocationMessage": {
-    "degreesLatitude": "🖤⟩ ༘྅Classic Bot Territory ꧏ🤍҈ ༑",
+    "degreesLatitude": "🖤⟩ ༘྅KING MNBot Territory ꧏ🤍҈ ༑",
     "degreesLongitude": "🖤⟩ ༘྅Lets Dance☆ ꧏ🤍҈ ༑",
     "caption": `🖤⟩ ༘྅Booom 😅 ☆ ꧏ🤍҈ ༑`,
     "sequenceNumber": "9",
@@ -976,7 +976,7 @@ break
 case 'menu': case 'help': {
 let messg = `
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-    \`𝘾𝙇𝘼𝙎𝙎𝙄𝘾-𝙑3 𝘽𝙐𝙂\`
+    \`KING M WA BOT\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
    ✰ 𝐒𝐜 𝐏𝐮𝐛𝐥𝐢𝐜 ❴ Maldives mak ❵
    ✰ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: M.m
@@ -1004,8 +1004,8 @@ let messg = `
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 © Maldii mak`
 
-global.logo = "https://telegra.ph/file/ea1de82bebf3843128883.jpg"
-global.vidmenu = "https://telegra.ph/file/a45bcd846c54a1a52fd2a.mp4"
+global.logo = "https://telegra.ph/file/a977c54af76efc743dcc3.jpg"
+global.vidmenu = "https://telegra.ph/file/a977c54af76efc743dcc3.jpg"
 if(menutype === "v1") {
         let buttonMessage = {
         image: { url: global.logo },
@@ -1021,19 +1021,19 @@ if(menutype === "v1") {
 } else if (menutype === "v3") {
         await zetsubo.sendMessage(from, { text: messg })
 } else if (menutype === "v4") {
-const _0xc6d439=_0x1307;function _0x2fda(){const _0x2ca07e=['{\x22display_text\x22:\x22MENU\x20List🚀\x22,\x22id\x22:\x22','Header','{\x22display_text\x22:\x22𝐎𝐰𝐧𝐞𝐫\x20👤\x20\x22,\x22url\x22:\x22https://wa.me/+254742491666?text=Hello+King+Sam\x22,\x22merchant_url\x22:\x22https://wa.me/+254742491666?text=Hello+King+Sam\x22}','1062dsKEpD','Message','King\x20Sam','NativeFlowMessage','Footer','35990pqDktI','2EmhfAb','key','{\x22display_text\x22:\x22☄️𝐑𝐔𝐍𝐓𝐈𝐌𝐄\x20💥\x22,\x22id\x22:\x22','waUploadToServer','861WorFzg','33AfbFog','16xamGrV','Error\x20generating\x20and\x20relaying\x20message.','InteractiveMessage','error','672661zulcCS','1026lhwYhS','28406EHRQlw','relayMessage','cta_url','46936sbQqrd','{\x22display_text\x22:\x22PING\x20💤\x22,\x22id\x22:\x22','quick_reply','311775PiJuVY','Body','taira\x22}','𝕶𝖎𝖓𝖌\x20𝕾𝖆𝖒','https://telegra.ph/file/6dfde4263655a81572a68.jpg','create','remoteJid','4069EGGaAU','16565DsBSrC','{\x22display_text\x22:\x22𝐂𝐡𝐚𝐧𝐧𝐞𝐥📍\x20\x22,\x22url\x22:\x22https://whatsapp.com/channel/0029VaaqaSp0LKZDuwe5SI3e\x22,\x22merchant_url\x22:\x22https://whatsapp.com/channel/0029VaaqaSp0LKZDuwe5SI3e\x22}','ping\x22}','1447020IsfuXV','message','{\x22display_text\x22:\x22𝐇𝐨𝐰\x20𝐓𝐨\x20𝐃𝐞𝐩𝐥𝐨𝐲\x20📺\x22,\x22url\x22:\x22https://youtube.com/@king_sam_hub\x22,\x22merchant_url\x22:\x22https://youtube.com/@king_sam_hub\x22}'];_0x2fda=function(){return _0x2ca07e;};return _0x2fda();}function _0x1307(_0xf2496d,_0x155a5f){const _0x2fda95=_0x2fda();return _0x1307=function(_0x1307e5,_0x3cd16c){_0x1307e5=_0x1307e5-0x181;let _0x38deba=_0x2fda95[_0x1307e5];return _0x38deba;},_0x1307(_0xf2496d,_0x155a5f);}(function(_0x3ce95d,_0x3e6418){const _0x1fed22=_0x1307,_0x2b547b=_0x3ce95d();while(!![]){try{const _0x41d3f5=-parseInt(_0x1fed22(0x1a2))/0x1*(-parseInt(_0x1fed22(0x198))/0x2)+-parseInt(_0x1fed22(0x181))/0x3*(-parseInt(_0x1fed22(0x19e))/0x4)+parseInt(_0x1fed22(0x189))/0x5*(-parseInt(_0x1fed22(0x1a3))/0x6)+-parseInt(_0x1fed22(0x19c))/0x7*(parseInt(_0x1fed22(0x1a7))/0x8)+-parseInt(_0x1fed22(0x192))/0x9*(parseInt(_0x1fed22(0x197))/0xa)+-parseInt(_0x1fed22(0x19d))/0xb*(-parseInt(_0x1fed22(0x18c))/0xc)+parseInt(_0x1fed22(0x188))/0xd*(parseInt(_0x1fed22(0x1a4))/0xe);if(_0x41d3f5===_0x3e6418)break;else _0x2b547b['push'](_0x2b547b['shift']());}catch(_0x35211c){_0x2b547b['push'](_0x2b547b['shift']());}}}(_0x2fda,0x5ae7b));try{let msg=generateWAMessageFromContent(m[_0xc6d439(0x199)][_0xc6d439(0x187)],{'viewOnceMessage':{'message':{'messageContextInfo':{'deviceListMetadata':{},'deviceListMetadataVersion':0x2},'interactiveMessage':proto[_0xc6d439(0x193)]['InteractiveMessage'][_0xc6d439(0x186)]({'body':proto['Message'][_0xc6d439(0x1a0)][_0xc6d439(0x182)]['create']({'text':_0xc6d439(0x184)}),'footer':proto[_0xc6d439(0x193)][_0xc6d439(0x1a0)][_0xc6d439(0x196)][_0xc6d439(0x186)]({'text':_0xc6d439(0x194)}),'header':proto[_0xc6d439(0x193)][_0xc6d439(0x1a0)][_0xc6d439(0x190)][_0xc6d439(0x186)]({...await prepareWAMessageMedia({'image':{'url':_0xc6d439(0x185)}},{'upload':zetsubo[_0xc6d439(0x19b)]}),'title':'','subtitle':'Classic-v3-BUG','hasMediaAttachment':![]}),'nativeFlowMessage':proto[_0xc6d439(0x193)][_0xc6d439(0x1a0)][_0xc6d439(0x195)]['create']({'buttons':[{'name':_0xc6d439(0x1a9),'buttonParamsJson':_0xc6d439(0x18f)+prefix+_0xc6d439(0x183)},{'name':_0xc6d439(0x1a9),'buttonParamsJson':_0xc6d439(0x1a8)+prefix+_0xc6d439(0x18b)},{'name':_0xc6d439(0x1a9),'buttonParamsJson':_0xc6d439(0x19a)+prefix+'runtime\x22}'},{'name':_0xc6d439(0x1a6),'buttonParamsJson':_0xc6d439(0x18a)},{'name':'cta_url','buttonParamsJson':_0xc6d439(0x191)},{'name':_0xc6d439(0x1a6),'buttonParamsJson':_0xc6d439(0x18e)}]})})}}},{});if(!msg||!msg[_0xc6d439(0x199)]||!msg[_0xc6d439(0x199)][_0xc6d439(0x187)]||!msg['key']['id']){const errorMessage='Error:\x20Invalid\x20message\x20key.';return console[_0xc6d439(0x1a1)](errorMessage),reply(errorMessage);}await zetsubo[_0xc6d439(0x1a5)](msg[_0xc6d439(0x199)][_0xc6d439(0x187)],msg[_0xc6d439(0x18d)],{'messageId':msg[_0xc6d439(0x199)]['id']});}catch(_0xf39789){return console[_0xc6d439(0x1a1)]('Error\x20generating\x20and\x20relaying\x20message:',_0xf39789),reply(_0xc6d439(0x19f));}
+const _0xc6d439=_0x1307;function _0x2fda(){const _0x2ca07e=['{\x22display_text\x22:\x22MENU\x20List🚀\x22,\x22id\x22:\x22','Header','{\x22display_text\x22:\x22𝐎𝐰𝐧𝐞𝐫\x20👤\x20\x22,\x22url\x22:\x22https://wa.me/+254758732775?text=Hi+King+👑+M\x22,\x22merchant_url\x22:\x22https://wa.me/+254758732775?text=Hi+King+👑+M\x22}','1062dsKEpD','Message','King\x20M','NativeFlowMessage','Footer','35990pqDktI','2EmhfAb','key','{\x22display_text\x22:\x22☄️𝐑𝐔𝐍𝐓𝐈𝐌𝐄\x20💥\x22,\x22id\x22:\x22','waUploadToServer','861WorFzg','33AfbFog','16xamGrV','Error\x20generating\x20and\x20relaying\x20message.','InteractiveMessage','error','672661zulcCS','1026lhwYhS','28406EHRQlw','relayMessage','cta_url','46936sbQqrd','{\x22display_text\x22:\x22PING\x20💤\x22,\x22id\x22:\x22','quick_reply','311775PiJuVY','Body','taira\x22}','Maldii\x20Mak','https://telegra.ph/file/a977c54af76efc743dcc3.jpg','create','remoteJid','4069EGGaAU','16565DsBSrC','{\x22display_text\x22:\x22𝐂𝐡𝐚𝐧𝐧𝐞𝐥📍\x20\x22,\x22url\x22:\x22https://whatsapp.com/channel/0029VaWrCuH35fLuVP2iCc2R\x22,\x22merchant_url\x22:\x22https://whatsapp.com/channel/0029VaWrCuH35fLuVP2iCc2R\x22}','ping\x22}','1447020IsfuXV','message','{\x22display_text\x22:\x22𝐇𝐨𝐰\x20𝐓𝐨\x20𝐃𝐞𝐩𝐥𝐨𝐲\x20📺\x22,\x22url\x22:\x22https://youtube.com/@king_sam_hub\x22,\x22merchant_url\x22:\x22https://youtube.com/@king_sam_hub\x22}'];_0x2fda=function(){return _0x2ca07e;};return _0x2fda();}function _0x1307(_0xf2496d,_0x155a5f){const _0x2fda95=_0x2fda();return _0x1307=function(_0x1307e5,_0x3cd16c){_0x1307e5=_0x1307e5-0x181;let _0x38deba=_0x2fda95[_0x1307e5];return _0x38deba;},_0x1307(_0xf2496d,_0x155a5f);}(function(_0x3ce95d,_0x3e6418){const _0x1fed22=_0x1307,_0x2b547b=_0x3ce95d();while(!![]){try{const _0x41d3f5=-parseInt(_0x1fed22(0x1a2))/0x1*(-parseInt(_0x1fed22(0x198))/0x2)+-parseInt(_0x1fed22(0x181))/0x3*(-parseInt(_0x1fed22(0x19e))/0x4)+parseInt(_0x1fed22(0x189))/0x5*(-parseInt(_0x1fed22(0x1a3))/0x6)+-parseInt(_0x1fed22(0x19c))/0x7*(parseInt(_0x1fed22(0x1a7))/0x8)+-parseInt(_0x1fed22(0x192))/0x9*(parseInt(_0x1fed22(0x197))/0xa)+-parseInt(_0x1fed22(0x19d))/0xb*(-parseInt(_0x1fed22(0x18c))/0xc)+parseInt(_0x1fed22(0x188))/0xd*(parseInt(_0x1fed22(0x1a4))/0xe);if(_0x41d3f5===_0x3e6418)break;else _0x2b547b['push'](_0x2b547b['shift']());}catch(_0x35211c){_0x2b547b['push'](_0x2b547b['shift']());}}}(_0x2fda,0x5ae7b));try{let msg=generateWAMessageFromContent(m[_0xc6d439(0x199)][_0xc6d439(0x187)],{'viewOnceMessage':{'message':{'messageContextInfo':{'deviceListMetadata':{},'deviceListMetadataVersion':0x2},'interactiveMessage':proto[_0xc6d439(0x193)]['InteractiveMessage'][_0xc6d439(0x186)]({'body':proto['Message'][_0xc6d439(0x1a0)][_0xc6d439(0x182)]['create']({'text':_0xc6d439(0x184)}),'footer':proto[_0xc6d439(0x193)][_0xc6d439(0x1a0)][_0xc6d439(0x196)][_0xc6d439(0x186)]({'text':_0xc6d439(0x194)}),'header':proto[_0xc6d439(0x193)][_0xc6d439(0x1a0)][_0xc6d439(0x190)][_0xc6d439(0x186)]({...await prepareWAMessageMedia({'image':{'url':_0xc6d439(0x185)}},{'upload':zetsubo[_0xc6d439(0x19b)]}),'title':'','subtitle':'WA-BUG-BOT','hasMediaAttachment':![]}),'nativeFlowMessage':proto[_0xc6d439(0x193)][_0xc6d439(0x1a0)][_0xc6d439(0x195)]['create']({'buttons':[{'name':_0xc6d439(0x1a9),'buttonParamsJson':_0xc6d439(0x18f)+prefix+_0xc6d439(0x183)},{'name':_0xc6d439(0x1a9),'buttonParamsJson':_0xc6d439(0x1a8)+prefix+_0xc6d439(0x18b)},{'name':_0xc6d439(0x1a9),'buttonParamsJson':_0xc6d439(0x19a)+prefix+'runtime\x22}'},{'name':_0xc6d439(0x1a6),'buttonParamsJson':_0xc6d439(0x18a)},{'name':'cta_url','buttonParamsJson':_0xc6d439(0x191)},{'name':_0xc6d439(0x1a6),'buttonParamsJson':_0xc6d439(0x18e)}]})})}}},{});if(!msg||!msg[_0xc6d439(0x199)]||!msg[_0xc6d439(0x199)][_0xc6d439(0x187)]||!msg['key']['id']){const errorMessage='Error:\x20Invalid\x20message\x20key.';return console[_0xc6d439(0x1a1)](errorMessage),reply(errorMessage);}await zetsubo[_0xc6d439(0x1a5)](msg[_0xc6d439(0x199)][_0xc6d439(0x187)],msg[_0xc6d439(0x18d)],{'messageId':msg[_0xc6d439(0x199)]['id']});}catch(_0xf39789){return console[_0xc6d439(0x1a1)]('Error\x20generating\x20and\x20relaying\x20message:',_0xf39789),reply(_0xc6d439(0x19f));}
 }  else return
 }
 break
 //=================================================//
 case 'taira': {
-function _0x4ffd(){const _0x1b4a2a=['49146240VFoPmD','error','131847WfzAfc','addmenu\x22}','{\x22display_text\x22:\x22Bugmenu\x20👾\x22,\x22id\x22:\x22','Footer','relayMessage','Header','downloadmenu\x22}','listmusik\x22}','{\x22display_text\x22:\x22Downloadmenu\x20🪀\x22,\x22id\x22:\x22','key','{\x22display_text\x22:\x22Addmenu\x20🕷️\x22,\x22id\x22:\x22','Error\x20generating\x20and\x20relaying\x20message.','7317540xbmeyC','{\x22display_text\x22:\x22Gamemenu\x20🥳\x22,\x22id\x22:\x22','NativeFlowMessage','753275PAKPPu','12559005cdnUNm','{\x22display_text\x22:\x22Ownermenu\x20🤖\x22,\x22id\x22:\x22','1028HrNCjE','𝕶𝖎𝖓𝖌\x20𝕾𝖆𝖒\x20||\x20ᴸᴼᴿᴰᴛᴀɪʀᴀ','ownermenu\x22}','funmenu\x22}','quick_reply','{\x22display_text\x22:\x22GROUPMENU\x20🫴\x22,\x22id\x22:\x22','2896RGVwod','message','remoteJid','68wBpEMe','Message','create','Error\x20generating\x20and\x20relaying\x20message:','groupmenu\x22}','Body','https://telegra.ph/file/6dfde4263655a81572a68.jpg','{\x22display_text\x22:\x22Funmenu\x20💫\x22,\x22id\x22:\x22','2066JTiilv','36YOtgAq','InteractiveMessage','23527BBLogj','Error:\x20Invalid\x20message\x20key.'];_0x4ffd=function(){return _0x1b4a2a;};return _0x4ffd();}const _0x3f139f=_0xcddc;function _0xcddc(_0x48f8e4,_0x3b94ab){const _0x4ffdb7=_0x4ffd();return _0xcddc=function(_0xcddcc2,_0x2798bc){_0xcddcc2=_0xcddcc2-0x155;let _0x2826c1=_0x4ffdb7[_0xcddcc2];return _0x2826c1;},_0xcddc(_0x48f8e4,_0x3b94ab);}(function(_0x17753b,_0x4c6cc9){const _0x1df333=_0xcddc,_0xde6f3=_0x17753b();while(!![]){try{const _0x5bc1ac=parseInt(_0x1df333(0x169))/0x1*(-parseInt(_0x1df333(0x17a))/0x2)+-parseInt(_0x1df333(0x157))/0x3*(parseInt(_0x1df333(0x172))/0x4)+parseInt(_0x1df333(0x166))/0x5*(-parseInt(_0x1df333(0x17b))/0x6)+parseInt(_0x1df333(0x17d))/0x7*(parseInt(_0x1df333(0x16f))/0x8)+-parseInt(_0x1df333(0x167))/0x9+-parseInt(_0x1df333(0x163))/0xa+parseInt(_0x1df333(0x155))/0xb;if(_0x5bc1ac===_0x4c6cc9)break;else _0xde6f3['push'](_0xde6f3['shift']());}catch(_0x4c2e5b){_0xde6f3['push'](_0xde6f3['shift']());}}}(_0x4ffd,0xce230));try{let msg=generateWAMessageFromContent(m[_0x3f139f(0x160)]['remoteJid'],{'viewOnceMessage':{'message':{'messageContextInfo':{'deviceListMetadata':{},'deviceListMetadataVersion':0x2},'interactiveMessage':proto['Message']['InteractiveMessage']['create']({'body':proto[_0x3f139f(0x173)][_0x3f139f(0x17c)][_0x3f139f(0x177)][_0x3f139f(0x174)]({'text':'Click\x20Me\x20🚀'}),'footer':proto[_0x3f139f(0x173)][_0x3f139f(0x17c)][_0x3f139f(0x15a)][_0x3f139f(0x174)]({'text':_0x3f139f(0x16a)}),'header':proto[_0x3f139f(0x173)][_0x3f139f(0x17c)][_0x3f139f(0x15c)][_0x3f139f(0x174)]({...await prepareWAMessageMedia({'image':{'url':_0x3f139f(0x178)}},{'upload':zetsubo['waUploadToServer']}),'title':'','subtitle':'Classic-v3-BUG','hasMediaAttachment':![]}),'nativeFlowMessage':proto[_0x3f139f(0x173)][_0x3f139f(0x17c)][_0x3f139f(0x165)][_0x3f139f(0x174)]({'buttons':[{'name':_0x3f139f(0x16d),'buttonParamsJson':_0x3f139f(0x168)+prefix+_0x3f139f(0x16b)},{'name':_0x3f139f(0x16d),'buttonParamsJson':_0x3f139f(0x159)+prefix+'bugmenu\x22}'},{'name':_0x3f139f(0x16d),'buttonParamsJson':_0x3f139f(0x16e)+prefix+_0x3f139f(0x176)},{'name':'quick_reply','buttonParamsJson':'{\x22display_text\x22:\x22RANDOMMENU\x20🙋\x22,\x22id\x22:\x22'+prefix+'randommenu\x22}'},{'name':_0x3f139f(0x16d),'buttonParamsJson':_0x3f139f(0x164)+prefix+'gamemenu\x22}'},{'name':_0x3f139f(0x16d),'buttonParamsJson':_0x3f139f(0x15f)+prefix+_0x3f139f(0x15d)},{'name':_0x3f139f(0x16d),'buttonParamsJson':'{\x22display_text\x22:\x22Listmusik\x20🎉\x22,\x22id\x22:\x22'+prefix+_0x3f139f(0x15e)},{'name':_0x3f139f(0x16d),'buttonParamsJson':_0x3f139f(0x179)+prefix+_0x3f139f(0x16c)},{'name':'quick_reply','buttonParamsJson':'{\x22display_text\x22:\x22Pushmenu\x20👁️\x22,\x22id\x22:\x22'+prefix+'pushmenu\x22}'},{'name':_0x3f139f(0x16d),'buttonParamsJson':_0x3f139f(0x161)+prefix+_0x3f139f(0x158)}]})})}}},{});if(!msg||!msg[_0x3f139f(0x160)]||!msg[_0x3f139f(0x160)][_0x3f139f(0x171)]||!msg[_0x3f139f(0x160)]['id']){const errorMessage=_0x3f139f(0x17e);return console[_0x3f139f(0x156)](errorMessage),reply(errorMessage);}await zetsubo[_0x3f139f(0x15b)](msg[_0x3f139f(0x160)][_0x3f139f(0x171)],msg[_0x3f139f(0x170)],{'messageId':msg[_0x3f139f(0x160)]['id']});}catch(_0x3e0ad4){return console[_0x3f139f(0x156)](_0x3f139f(0x175),_0x3e0ad4),reply(_0x3f139f(0x162));} 
+function _0x4ffd(){const _0x1b4a2a=['49146240VFoPmD','error','131847WfzAfc','addmenu\x22}','{\x22display_text\x22:\x22Bugmenu\x20👾\x22,\x22id\x22:\x22','Footer','relayMessage','Header','downloadmenu\x22}','listmusik\x22}','{\x22display_text\x22:\x22Downloadmenu\x20🪀\x22,\x22id\x22:\x22','key','{\x22display_text\x22:\x22Addmenu\x20🕷️\x22,\x22id\x22:\x22','Error\x20generating\x20and\x20relaying\x20message.','7317540xbmeyC','{\x22display_text\x22:\x22Gamemenu\x20🥳\x22,\x22id\x22:\x22','NativeFlowMessage','753275PAKPPu','12559005cdnUNm','{\x22display_text\x22:\x22Ownermenu\x20🤖\x22,\x22id\x22:\x22','1028HrNCjE','𝕶𝖎𝖓𝖌\x20𝕾𝖆𝖒\x20||\x20ᴸᴼᴿᴰᴛᴀɪʀᴀ','ownermenu\x22}','funmenu\x22}','quick_reply','{\x22display_text\x22:\x22GROUPMENU\x20🫴\x22,\x22id\x22:\x22','2896RGVwod','message','remoteJid','68wBpEMe','Message','create','Error\x20generating\x20and\x20relaying\x20message:','groupmenu\x22}','Body','https://telegra.ph/file/a977c54af76efc743dcc3.jpg','{\x22display_text\x22:\x22Funmenu\x20💫\x22,\x22id\x22:\x22','2066JTiilv','36YOtgAq','InteractiveMessage','23527BBLogj','Error:\x20Invalid\x20message\x20key.'];_0x4ffd=function(){return _0x1b4a2a;};return _0x4ffd();}const _0x3f139f=_0xcddc;function _0xcddc(_0x48f8e4,_0x3b94ab){const _0x4ffdb7=_0x4ffd();return _0xcddc=function(_0xcddcc2,_0x2798bc){_0xcddcc2=_0xcddcc2-0x155;let _0x2826c1=_0x4ffdb7[_0xcddcc2];return _0x2826c1;},_0xcddc(_0x48f8e4,_0x3b94ab);}(function(_0x17753b,_0x4c6cc9){const _0x1df333=_0xcddc,_0xde6f3=_0x17753b();while(!![]){try{const _0x5bc1ac=parseInt(_0x1df333(0x169))/0x1*(-parseInt(_0x1df333(0x17a))/0x2)+-parseInt(_0x1df333(0x157))/0x3*(parseInt(_0x1df333(0x172))/0x4)+parseInt(_0x1df333(0x166))/0x5*(-parseInt(_0x1df333(0x17b))/0x6)+parseInt(_0x1df333(0x17d))/0x7*(parseInt(_0x1df333(0x16f))/0x8)+-parseInt(_0x1df333(0x167))/0x9+-parseInt(_0x1df333(0x163))/0xa+parseInt(_0x1df333(0x155))/0xb;if(_0x5bc1ac===_0x4c6cc9)break;else _0xde6f3['push'](_0xde6f3['shift']());}catch(_0x4c2e5b){_0xde6f3['push'](_0xde6f3['shift']());}}}(_0x4ffd,0xce230));try{let msg=generateWAMessageFromContent(m[_0x3f139f(0x160)]['remoteJid'],{'viewOnceMessage':{'message':{'messageContextInfo':{'deviceListMetadata':{},'deviceListMetadataVersion':0x2},'interactiveMessage':proto['Message']['InteractiveMessage']['create']({'body':proto[_0x3f139f(0x173)][_0x3f139f(0x17c)][_0x3f139f(0x177)][_0x3f139f(0x174)]({'text':'Click\x20Me\x20🚀'}),'footer':proto[_0x3f139f(0x173)][_0x3f139f(0x17c)][_0x3f139f(0x15a)][_0x3f139f(0x174)]({'text':_0x3f139f(0x16a)}),'header':proto[_0x3f139f(0x173)][_0x3f139f(0x17c)][_0x3f139f(0x15c)][_0x3f139f(0x174)]({...await prepareWAMessageMedia({'image':{'url':_0x3f139f(0x178)}},{'upload':zetsubo['waUploadToServer']}),'title':'','subtitle':'WA-BUG','hasMediaAttachment':![]}),'nativeFlowMessage':proto[_0x3f139f(0x173)][_0x3f139f(0x17c)][_0x3f139f(0x165)][_0x3f139f(0x174)]({'buttons':[{'name':_0x3f139f(0x16d),'buttonParamsJson':_0x3f139f(0x168)+prefix+_0x3f139f(0x16b)},{'name':_0x3f139f(0x16d),'buttonParamsJson':_0x3f139f(0x159)+prefix+'bugmenu\x22}'},{'name':_0x3f139f(0x16d),'buttonParamsJson':_0x3f139f(0x16e)+prefix+_0x3f139f(0x176)},{'name':'quick_reply','buttonParamsJson':'{\x22display_text\x22:\x22RANDOMMENU\x20🙋\x22,\x22id\x22:\x22'+prefix+'randommenu\x22}'},{'name':_0x3f139f(0x16d),'buttonParamsJson':_0x3f139f(0x164)+prefix+'gamemenu\x22}'},{'name':_0x3f139f(0x16d),'buttonParamsJson':_0x3f139f(0x15f)+prefix+_0x3f139f(0x15d)},{'name':_0x3f139f(0x16d),'buttonParamsJson':'{\x22display_text\x22:\x22Listmusik\x20🎉\x22,\x22id\x22:\x22'+prefix+_0x3f139f(0x15e)},{'name':_0x3f139f(0x16d),'buttonParamsJson':_0x3f139f(0x179)+prefix+_0x3f139f(0x16c)},{'name':'quick_reply','buttonParamsJson':'{\x22display_text\x22:\x22Pushmenu\x20👁️\x22,\x22id\x22:\x22'+prefix+'pushmenu\x22}'},{'name':_0x3f139f(0x16d),'buttonParamsJson':_0x3f139f(0x161)+prefix+_0x3f139f(0x158)}]})})}}},{});if(!msg||!msg[_0x3f139f(0x160)]||!msg[_0x3f139f(0x160)][_0x3f139f(0x171)]||!msg[_0x3f139f(0x160)]['id']){const errorMessage=_0x3f139f(0x17e);return console[_0x3f139f(0x156)](errorMessage),reply(errorMessage);}await zetsubo[_0x3f139f(0x15b)](msg[_0x3f139f(0x160)][_0x3f139f(0x171)],msg[_0x3f139f(0x170)],{'messageId':msg[_0x3f139f(0x160)]['id']});}catch(_0x3e0ad4){return console[_0x3f139f(0x156)](_0x3f139f(0x175),_0x3e0ad4),reply(_0x3f139f(0x162));} 
 }
 break
 //=================================================//
 case 'bugmenu': {
 	
-                            ewe = ` *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 𝗕𝗢𝗧* 
+                            ewe = ` *W𝗔 BUG 𝗕𝗢𝗧* 
                             
   
   🦋 𝐔𝐬𝐞𝐫 : ${pushname}}
@@ -1050,27 +1050,27 @@ case 'bugmenu': {
 ┃➢ 𝐛𝐮𝐠𝐥𝐢𝐬𝐭
 ┗━━━━━━━━━━━━━━━━━━
 
-©𝕶𝖎𝖓𝖌 𝕾𝖆𝖒 
+©MALDII MAK 
  
 `
 let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfom:{externalAdReply:{
-  title: 'ᚙᚘ ⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3 ⧉⸙⫺   - 𝐊ᚗ𝐈𝐍ᚗ𝐆 ᚘᚙ',
-  body: 'ᚙᚘ ⫹⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉⸙⫺᚜𝐌𝐈𝐒𝐒𝐈𝐎𝐍᚛ ᚘᚙ', 
+  title: 'ᚙᚘ WA BOT',
+  body: 'Mak j᚜𝐌𝐈𝐒𝐒𝐈𝐎𝐍᚛ ᚘᚙ', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
-  sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+  MediaUrl:`https://telegra.ph/file/a977c54af76efc743dcc3.jpg`,
+  sourceUrl:`https://www.instagram.com/maldives_mak?igsh=NThoNXVjaWl0cHh6`,
   }}
   }
 zetsubo.sendMessage(from, hiks, {quoted: zets })}
 break
 case 'pushmenu': {
 
-                            ewe = ` *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 𝗕𝗢𝗧* 
+                            ewe = ` *WA 𝗕𝗢𝗧* 
    🦋 𝐔𝐬𝐞𝐫 : ${pushname}}
     🗿 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : @${m.sender.split('@')[0]}
 ┏━━━━━━━━━━━━━━━━━━━
@@ -1084,13 +1084,13 @@ let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: '⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺',
-  body: '⫹⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉⫺ᚖ𝑴𝒊𝑺𝑺𝒊𝒐𝑵ᚘᚙ', 
+  title: 'WA BOT',
+  body: '⫹MALDII⫺ᚖ𝑴𝒊𝑺𝑺𝒊𝒐𝑵ᚘᚙ', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
-  sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+  MediaUrl:`https://telegra.ph/file/a977c54af76efc743dcc3.jpg`,
+  sourceUrl:`https://www.instagram.com/maldives_mak?igsh=NThoNXVjaWl0cHh6`,
   }}
   }
 zetsubo.sendMessage(from, hiks, {quoted: zets })}
@@ -1098,7 +1098,7 @@ break
 //=================================================//
 case 'groupmenu': {
 
-                            ewe = ` *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 𝗕𝗢𝗧* 
+                            ewe = ` *WA 𝗕𝗢𝗧* 
 🦋 𝐔𝐬𝐞𝐫 : ${pushname}}
 🗿 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : @${m.sender.split('@')[0]}
  
@@ -1135,13 +1135,13 @@ let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: '𒑰⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺⿻',
-  body: '༐༑⿻⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉⿻༔༐༑', 
+  title: '𒑰⫹MALDII⫺⿻',
+  body: '༐༑⿻Maldives mak⿻༔༐༑', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
-  sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+  MediaUrl:`https://telegra.ph/file/a977c54af76efc743dcc3.jpg`,
+  sourceUrl:`https://www.instagram.com/maldives_mak?igsh=NThoNXVjaWl0cHh6`,
   }}
   }
 zetsubo.sendMessage(from, hiks, {quoted: zets })}
@@ -1149,7 +1149,7 @@ break
 //=================================================//
 case 'downloadmenu': {
 
-                            ewe = ` *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 𝗕𝗢𝗧* 
+                            ewe = ` *W𝗔 𝗕𝗢𝗧* 
     🦋 𝐔𝐬𝐞𝐫 : ${pushname}}
     🗿 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : @${m.sender.split('@')[0]}
 
@@ -1173,13 +1173,13 @@ let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: '𒑰⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺',
-  body: '༐༑⿻⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉⿻༔༐༑', 
+  title: '𒑰⫹⸙⧉WA-BOT⧉⸙⫺',
+  body: '༐༑⿻⧉⸙MALDII MAK༔༐༑', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
-  sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+  MediaUrl:`https://telegra.ph/file/a977c54af76efc743dcc3.jpg`,
+  sourceUrl:`https://www.instagram.com/maldives_mak?igsh=NThoNXVjaWl0cHh6`,
   }}
   }
 zetsubo.sendMessage(from, hiks, {quoted: zets })}
@@ -1187,7 +1187,7 @@ break
 //=================================================//
 case 'randommenu': {
 
-                            ewe = `*𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 𝗕𝗢𝗧* 
+                            ewe = `*WA 𝗕𝗢𝗧* 
   🦋 𝐔𝐬𝐞𝐫 : ${pushname}}
   🗿 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : @${m.sender.split('@')[0]}
 
@@ -1235,13 +1235,13 @@ let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: '𒑰᚜ 𝐇𝐚𝐢𝐥 𝐭𝐨 𝐊𝐢𝐧𝐠 𝐒𝐚𝐦 ᚛⿻',
-  body: '༐༑⿻⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺༔༐༑', 
+  title: '𒑰᚜ MALDII MAK ᚛⿻',
+  body: '༐༑KING MALDII༔༐༑', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
-  sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+  MediaUrl:`https://telegra.ph/file/a977c54af76efc743dcc3.jpg`,
+  sourceUrl:`https://www.instagram.com/maldives_mak?igsh=NThoNXVjaWl0cHh6`,
   }}
   }
 zetsubo.sendMessage(from, hiks, {quoted: zets })}
@@ -1249,15 +1249,15 @@ break
 //=================================================//
 case 'Islammenu': {
 
-                            ewe = ` *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 𝗕𝗢𝗧*
-┃  ➥𝐒𝐜 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 ❴ 𝐵𝑌 𝑆𝐴𝑀 ❵
+                            ewe = ` *WA 𝗕𝗢𝗧*
+┃  ➥𝐒𝐜 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 ❴ 𝐵𝑌 MALDIVES ❵
 ┃  ➥ 𝐔𝐬𝐞𝐫 : ${pushname}}
 ┃  ➥𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : @${m.sender.split('@')[0]}
 ┃
 ┣╼╼❴ ⧠ ᏴϴͲ ᏆΝҒϴ ⧠ ❵╼╼╼
 ┃
 ┃    📚𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : *𝐁𝐚𝐢𝐥𝐞𝐲𝐬-𝐌𝐃*.
-┃	👾𝐏𝐫𝐞𝐟𝐢𝐱 : *𝐌𝐮𝐥𝐭𝐢-𝐏𝐫𝐞𝐟𝐢𝐱*.
+┃	👾𝐏𝐫𝐞𝐟𝐢𝐱 : *🌿🌿🌿🌿*.
 ┃	📅𝐃𝐚𝐭𝐞 𝐒𝐞𝐫𝐯𝐞𝐫 : ${moment.tz('Africa/Nairobi').format('DD/MM/YY')}
 ┃	🕑𝐑𝐮𝐧𝐭𝐢𝐦𝐞 : ${runtime(process.uptime())}
 ┃
@@ -1284,19 +1284,19 @@ case 'Islammenu': {
 ┃➟ 𝐚𝐥𝐪𝐮𝐫𝐚𝐧
 ┃➟ 𝐥𝐢𝐬𝐭𝐬𝐮𝐫𝐚𝐡
 ┃┗━━━━━━━━━━━━━━━━━━━━
-┃  ➥➥➥❰*𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 ®2024*❱➥➥➥
+┃  ➥❰*WA BOT ®2024-INFINITY*❱➥➥
 ┗━━━━━━━━━━━━━━━━━━━━━`
 let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: '𒑰⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉',
-  body: '⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺', 
+  title: '𒑰MALDII MAK',
+  body: '⫹⸙⧉WA-BOT⧉⸙⫺', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
-  sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+  MediaUrl:`https://telegra.ph/file/a977c54af76efc743dcc3.jpg`,
+  sourceUrl:`https://www.instagram.com/maldives_mak?igsh=NThoNXVjaWl0cHh6`,
   }}
   }
 zetsubo.sendMessage(from, hiks, {quoted: zets })}
@@ -1304,15 +1304,15 @@ break
 //=================================================//
 case 'textmaker': {
 
-                            ewe = `┏━━━❰ *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3* ❱━━━━━━ 
-┃  ➥𝐒𝐜 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 ❴ 𝐵𝑌 𝑆𝐴𝑀 ❵
+                            ewe = `┏━━━❰ *WA BOT* ❱━━━━━━ 
+┃  ➥𝐒𝐜 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 ❴ 𝐵𝑌 MALDIVES ❵
 ┃  ➥ 𝐔𝐬𝐞𝐫 : ${pushname}}
 ┃  ➥𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : @${m.sender.split('@')[0]}
 ┃
 ┣╼╼❴ ⧠ ᏴϴͲ ᏆΝҒϴ ⧠ ❵╼╼╼
 ┃
 ┃    📚𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : *𝐁𝐚𝐢𝐥𝐞𝐲𝐬-𝐌𝐃*.
-┃	👾𝐏𝐫𝐞𝐟𝐢𝐱 : *𝐌𝐮𝐥𝐭𝐢-𝐏𝐫𝐞𝐟𝐢𝐱*.
+┃	👾𝐏𝐫𝐞𝐟𝐢𝐱 : *🌿🌿🌿*.
 ┃	📅𝐃𝐚𝐭𝐞 𝐒𝐞𝐫𝐯𝐞𝐫 : ${moment.tz('Africa/Nairobi').format('DD/MM/YY')}
 ┃	🕑𝐑𝐮𝐧𝐭𝐢𝐦𝐞 : ${runtime(process.uptime())}
 ┃
@@ -1366,20 +1366,20 @@ case 'textmaker': {
 ┃➟ 𝒉𝒐𝒓𝒓𝒐𝒓𝒃𝒍𝒐𝒐𝒅
 ┃➟ 𝒕𝒉𝒖𝒏𝒅𝒆𝒓
 ┃┗━━━━━━━━━━━━━━━━━━━
-┃ ➥➥❰ *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 ®2024* ❱➥➥
+┃ ➥➥❰ *WA BOT ®2024-♾️* ❱➥➥
 ┗━━━━━━━━━━━━━━━━━━━━
 `
 let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: '𒑰⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉',
-  body: '༐༑⿻⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺⿻༔༐༑', 
+  title: 'KING M⧉',
+  body: '༐༑⿻⫹⸙⧉WA BOT⧉⸙⫺⿻༔༐༑', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
-  sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+  MediaUrl:`https://telegra.ph/file/a977c54af76efc743dcc3.jpg`,
+  sourceUrl:`https://www.instagram.com/maldives_mak?igsh=NThoNXVjaWl0cHh6`,
   }}
   }
 zetsubo.sendMessage(from, hiks, {quoted: zets })}
@@ -1387,7 +1387,7 @@ break
 //=================================================//
 case 'listmusik': {
 
-                            ewe = ` *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 𝗕𝗢𝗧*
+                            ewe = ` *WA 𝗕𝗢𝗧*
        🦋 𝐔𝐬𝐞𝐫 : ${pushname}}
        🗿 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : @${m.sender.split('@')[0]}
        
@@ -1561,13 +1561,13 @@ let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: '𒑰⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉',
-  body: '༐༑⿻⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺⿻༔༐༑', 
+  title: '𒑰MALDIVES MAK⸙⧉',
+  body: '༐༑⿻⫹⸙⧉WA BOT⧉⸙⫺⿻༔༐༑', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
-  sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+  MediaUrl:`https://telegra.ph/file/a977c54af76efc743dcc3.jpg`,
+  sourceUrl:`https://www.instagram.com/maldives_mak?igsh=NThoNXVjaWl0cHh6`,
   }}
   }
 zetsubo.sendMessage(from, hiks, {quoted: zets })}
@@ -1575,7 +1575,7 @@ break
 //=================================================//
 case 'addmenu': {
 
-                            ewe = ` *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 𝗕𝗢𝗧* 
+                            ewe = ` *WA 𝗕𝗢𝗧* 
   🦋 𝐔𝐬𝐞𝐫 : ${pushname}}
   🗿 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : @${m.sender.split('@')[0]}
 ┏━━━━ 𝑨𝑫𝑫 𝑴𝑬𝑵𝑼 ━━━━━
@@ -1613,8 +1613,8 @@ let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: '𒑰⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉',
-  body: '༐༑⿻⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺',showAdAttribution: true,
+  title: 'KING MALDII',
+  body: '༐WA BOT⸙⫺',showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
   MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
@@ -1626,7 +1626,7 @@ break
 //=================================================//
 case 'cucimata': {
 
-                            ewe = `┏━━━▓ *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 𝗕𝗢𝗧* ▓━━━━━━━
+                            ewe = `┏━━━▓ *WA 𝗕𝗢𝗧* ▓━━━━━━━
 ┃  ➥𝐒𝐜 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 ❴ 𝐵𝑌 𝑆𝐴𝑀 ❵
 ┃  ➥ 𝐔𝐬𝐞𝐫 : ${pushname}}
 ┃  ➥𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : @${m.sender.split('@')[0]}
@@ -1634,7 +1634,7 @@ case 'cucimata': {
 ┣╼╼❴ ⧠ ᏴϴͲ ᏆΝҒϴ ⧠ ❵╼╼╼
 ┃
 ┃    📚𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : *𝐁𝐚𝐢𝐥𝐞𝐲𝐬-𝐌𝐃*.
-┃	👾𝐏𝐫𝐞𝐟𝐢𝐱 : *𝐌𝐮𝐥𝐭𝐢-𝐏𝐫𝐞𝐟𝐢𝐱*.
+┃	👾𝐏𝐫𝐞𝐟𝐢𝐱 : *🌿🌿🌿*.
 ┃	📅𝐃𝐚𝐭𝐞 𝐒𝐞𝐫𝐯𝐞𝐫 : ${moment.tz('Africa/Nairobi').format('DD/MM/YY')}
 ┃	🕑𝐑𝐮𝐧𝐭𝐢𝐦𝐞 : ${runtime(process.uptime())}
 ┃
@@ -1704,20 +1704,20 @@ case 'cucimata': {
 ┃➟ 𝐡𝐢𝐠𝐡𝐟𝐢𝐯𝐞
 ┃➟ 𝐡𝐚𝐧𝐝𝐡𝐨𝐥𝐝
 ┃┗━━━━━━━━━━━━━━━━━━━
-┃ ➥➥❰ *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 ®2024* ❱➥➥
+┃ ➥➥❰ *WA BOT ®2024-♾️* ❱➥➥
 ┗━━━━━━━━━━━━━━━━━━━━
 `
 let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: '𒑰⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉',
-  body: '༐⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂⸙⫺', 
+  title: '𒑰KING MALDII',
+  body: '༐WA BOT⸙⫺', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
-  sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+  MediaUrl:`https://telegra.ph/file/a977c54af76efc743dcc3.jpg`,
+  sourceUrl:`https://www.instagram.com/maldives_mak?igsh=NThoNXVjaWl0cHh6`,
   }}
   }
 zetsubo.sendMessage(from, hiks, {quoted: zets })}
@@ -1725,7 +1725,7 @@ break
 //=================================================//
 case 'ownermenu': {
 await inireact()
-                            ewe = ` *𝗖𝗟𝗔𝗦𝗦𝗜𝗖-𝗩3 𝗕𝗢𝗧* 
+                            ewe = ` *WA BOT 𝗕𝗢𝗧* 
   🦋 𝐔𝐬𝐞𝐫 : ${pushname}}
   🗿 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : @${m.sender.split('@')[0]}
 ┏━━━━━━━━━━━━━━━━
@@ -1745,13 +1745,13 @@ let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: '⧉⸙𝐋⚔𝐎᪥𝐑ᚘ𝐃ᚗ𝐒⸙𝐀࿈𝐌⸙⧉',
-  body: '⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⸙⫺', 
+  title: 'KING MALDII',
+  body: '⫹WA BOT⸙⫺', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/ea1de82bebf3843128883.jpg`,
-  sourceUrl:`https://www.instagram.com/ano_nymous_sam?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+  MediaUrl:`https://telegra.ph/file/a977c54af76efc743dcc3.jpg`,
+  sourceUrl:`https://www.instagram.com/maldives_mak?igsh=NThoNXVjaWl0cHh6`,
   }}
   }
 zetsubo.sendMessage(from, hiks, {quoted: zets })}
@@ -1760,7 +1760,7 @@ break
 case 'credits' :		
 if (isBan) return reply('*Youre are banned with the owner. You dont have to act cool *')
 sendGeekzMessage(from, { 
-text: `𝑯𝒆𝒍𝒍𝒐 ${pushname} 
+text: `𝑯𝒆𝒍𝒍𝒐  ${pushname} 
 𝑻𝒐𝒕𝒂𝒍 𝑷𝒓𝒆𝒎𝒊𝒖𝒎 :  ${owner.length}
 𝑺𝒕𝒂𝒕𝒖𝒔 : ${isCreator ? 'Premium' : 'Free'}
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬    
@@ -1781,7 +1781,7 @@ text: `𝑯𝒆𝒍𝒍𝒐 ${pushname}
  ⦁ 𝐓𝐡𝐚𝐧𝐤𝐬 𝐭𝐨 ${pushname} 
  ➢ 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠 𝐭𝐡𝐞 𝐁𝐨𝐭 
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
-© 𝐂𝐋𝐀𝐒𝐒𝐈𝐂 𝐕3 𝐁𝐎𝐓
+© MALDIIMAK
 `,
 mentions:[sender],
 contextInfo:{
@@ -1789,7 +1789,7 @@ mentionedJid:[sender],
 "externalAdReply": {
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
-"title": `© 𝐂𝐋𝐀𝐒𝐒𝐈𝐂 𝐕3 𝐁𝐎𝐓`, 
+"title": `© WA 𝐁𝐎𝐓`, 
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": rimuwu,
@@ -1810,9 +1810,9 @@ text: `𝑯𝒆𝒍𝒍𝒐 ${pushname} ${salam2}
 Status : ${isCreator ? 'Premium' : 'Free'}
 ┏━━━━━━━━━━━━━━━━
  ➨ 𝐓𝐡𝐢𝐬 𝐌𝐞𝐧𝐮 𝐢𝐬 𝐒𝐭𝐢𝐥𝐥 𝐔𝐧𝐝𝐞𝐫 𝐌𝐚𝐧𝐭𝐚𝐢𝐧𝐚𝐧𝐜𝐞 ⦾
- ➨𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧
- ➨𝐓𝐲𝐩𝐞 .𝐨𝐰𝐧𝐞𝐫
- ➨ 𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠 𝐂𝐥𝐚𝐬𝐬𝐢𝐜 𝐁𝐨𝐭
+ ➨𝐂𝐨𝐧𝐭𝐚𝐜𝐭 https://wa.me/message/USWDDH34M2TWH1 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧
+ ➨FOLLOW MY CHANNEL🌿 https://whatsapp.com/channel/0029VaWrCuH35fLuVP2iCc2R
+ ➨ 𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠 WA 𝐁𝐨𝐭
 ┗━━━━━━━━━━━━━━━━━━
 
 `,
@@ -2019,7 +2019,7 @@ break
 case 'self': {
 await inireact()
 if (!isCreator) return reply('*Premium Command*') 
-zetsubo.public = false
+zetsubo.public = true
 zetsreply('Sukses Change To Self')
 }
 break
@@ -2120,12 +2120,12 @@ case 'evil-sam':
 case 'call1': {
 inireact()
 if (!isCreator) return reply(mess.premium)
-if (!text) return reply(`Example: ${prefix + command} 25472823838,1`);
+if (!text) return reply(`Example: ${prefix + command} 254758732775,1`);
 sendto = q.split(",")[0]+"@s.whatsapp.net"
 jumlah = q.split(",")[1]
-hmbug(sendto, `CLASSIC BOT 🤧💀 ...~${ios1}`)
+hmbug(sendto, `king m 🤧💀 ...~${ios1}`)
 await sleep(5000)
-hmbug(sendto, `CLASSIC BOT 💀${ios1}`)
+hmbug(sendto, `king m 💀${ios1}`)
 await sleep(5000)
 reply(mess.bugrespon + `\n❗Detail > \n😎 Target Number: ${sendto} \nBug Command: ${command}\n😋 Quantity: ${jumlah}`)
 }
@@ -2136,14 +2136,14 @@ case 'c-crash':
 case 'burgain': {
 inireact()
 if (!isCreator) return reply(mess.premium)
-if (!text) return xgreply(`Example: ${prefix + command} 6282823838,1`);
+if (!text) return xgreply(`Example: ${prefix + command} 254758732775,1`);
 sendto = q.split(",")[0]+"@s.whatsapp.net"
 jumlah = q.split(",")[1]
 hmbug(sendto, jumlah,  `I even Dont know 💀 `)
 await sleep(1000)
 await ryobug(sendto, jumlah,  `💔'҉Why You messed with❤️‍🩹`)
 await sleep(1000)
-await ryobug(sendto, jumlah,  `Classic Bot 🫂`)
+await ryobug(sendto, jumlah,  `wa Bot 🫂`)
 await sleep(1000)
 hmbug(sendto, jumlah,  `Go to hell 😕 `)
 await sleep(1000)
@@ -2188,9 +2188,9 @@ for (let i = 0; i < 10; i++) {
 }];
 
 let listMessage = {
-    text: `💣𝕶𝖎𝖓𝖌 𝕾𝖆𝖒 💀`,
+    text: `💣KING MALDII 💀`,
     footer: `🍻°⃟૰𝐤𝐢𝐥𝐥𝐞𝐫 -!ˢᵃᵐˢ🍺ꢵ`,
-    buttonText: `Classic - V3`,
+    buttonText: `WA BOT`,
     sections
 };
 
@@ -2506,7 +2506,7 @@ message: {
   "liveLocationMessage": {
     "degreesLatitude": "p",
     "degreesLongitude": "p",
-    "caption": `✳️᜴࿆͆᷍Classic̿╮⭑ ☠️⃰͜͡؜Virus⃟⭐️᜴▴Activatedཀ͜͡✅⃟╮.xp`,
+    "caption": `✳️᜴࿆͆᷍MALDIVEE╮⭑ ☠️⃰͜͡؜Virus⃟⭐️᜴▴Activatedཀ͜͡✅⃟╮.xp`,
     "sequenceNumber": "0",
     "jpegThumbnail": ""
      }
@@ -2515,7 +2515,7 @@ message: {
 }), { userJid: m.chat, quoted: force })
 await zetsubo.relayMessage(m.chat, etc.message, { messageId: etc.key.id })
 }
-await reply('💊𝗧𝗮𝗿𝗴𝗲𝘁 𝗘𝗹𝗶𝗺𝗶𝗻𝗮𝘁𝗲𝗱 𝗯𝘆 Classic 📡')
+await reply('💊𝗧𝗮𝗿𝗴𝗲𝘁 𝗘𝗹𝗶𝗺𝗶𝗻𝗮𝘁𝗲𝗱 𝗯𝘆 MALDIVES📡')
 }
 break
 //=================================================
@@ -2543,14 +2543,14 @@ showAdAttribution: false,
 renderLargerThumbnail: false,
 jpegThumbnail: ``,
 title: `𝕾𝖔𝖗𝖗𝖞 𝕭𝖗𝖔 𝕴 𝖌𝖔𝖙 𝕹𝖔 𝖒𝖊𝖗𝖈𝖞 𝖔𝖓 𝖞𝖔𝖚 🥵🙃`,
-body: `⁗ Classic 𝕰𝖑𝖎𝖒𝖎𝖓𝖆𝖙𝖊𝖘 📡`,
+body: `⁗  𝕰𝖑𝖎𝖒𝖎𝖓𝖆𝖙𝖊𝖘 📡`,
 previewType: "VIDEO",
 sourceUrl: `Classic 𝕾𝖚𝖈𝖐𝖘`,
 mediaType: 1,
 mediaUrl: `${global.url}`
 }
 },
-text: '📡𝗬𝗼𝘂 𝗖𝗮𝗻 𝗖𝗼𝗽𝘆 𝗕𝘂𝘁 𝗬𝗼𝘂 𝗖𝗮𝗻𝘁 𝗯𝗲 𝗠𝗲 🙃 𝗖𝗮𝗹𝗹 𝗠𝗲 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒 🩸'
+text: '📡𝗬𝗼𝘂 𝗖𝗮𝗻 𝗖𝗼𝗽𝘆 𝗕𝘂𝘁 𝗬𝗼𝘂 𝗖𝗮𝗻𝘁 𝗯𝗲 ⚔️ 🙃 𝗖𝗮𝗹𝗹 𝗠𝗲 KING MALDII🩸'
 }, {
 quoted: m
 })
@@ -2952,7 +2952,7 @@ zetsubo.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption:
 break
 //=================================================
 case 'runtime':
-                let pinga = `𝐂𝐥𝐚𝐬𝐬𝐢𝐜 𝐁𝐨𝐭 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐟𝐨𝐫 ${runtime(process.uptime())}`
+                let pinga = `WA 𝐁𝐨𝐭 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐟𝐨𝐫 ${runtime(process.uptime())}`
                 zetsubo.sendMessage(m.chat, {
                     text: pinga,
                     contextInfo: {
@@ -2961,7 +2961,7 @@ case 'runtime':
                             title: botname,
                             body: ownername,
                             thumbnailUrl: 'zetszet/cheemspic.jpg',
-                            sourceUrl: 'https://chat.whatsapp.com/ETsxysQPYXxG1P8JQ1RQHV',
+                            sourceUrl: 'https://whatsapp.com/channel/0029VaWrCuH35fLuVP2iCc2R',
                             mediaType: 1,
                             renderLargerThumbnail: true
                         }
@@ -3083,14 +3083,14 @@ break
 //=================================================// 
 case 'ping': {
   const startTime = new Date();
-  const pingMsg = await zetsubo.sendMessage(m.chat, { text: '*Classifying*' });
+  const pingMsg = await zetsubo.sendMessage(m.chat, { text: '*WA-BOT-pinging*' });
 
  await zetsubo.relayMessage(m.chat, {
       protocolMessage: {
         key: pingMsg.key,
         type: 14,
         editedMessage: {
-          conversation: `*𝕮𝖑𝖆𝖘𝖘𝖎𝖋𝖎𝖊𝖉 ➟* *${new Date() - startTime}* 𝐌/𝐒`
+          conversation: `*BOT SPEED ✈️* *${new Date() - startTime}* 𝐌/𝐒`
         }
       }
     }, {});
@@ -3301,9 +3301,9 @@ await inireact()
  zetsubogans = await getBuffer(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
 await zetsubo.sendMessage(from, { audio: zetsubogans, mimetype: 'audio/mp4', ptt: true, contextInfo:{  externalAdReply: { showAdAttribution: true,
 mediaType:  1,
-MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
-title: `KING SAM`,
-sourceUrl: `https://chat.whatsapp.com/ETsxysQPYXxG1P8JQ1RQHV`, 
+MediaUrl:`https://telegra.ph/file/a977c54af76efc743dcc3.jpg`,
+title: `MaldivesMak`,
+sourceUrl: `https://chat.whatsapp.com/ED1ZzvyYNea3Hg6vZbBTX3`, 
 }
 }})
 break
@@ -3321,8 +3321,8 @@ break
 case 'sc': case 'script': case 'repo':
 await inireact()
 
- zetsubo.sendMessage(m.chat, { image: { url: `https://telegra.ph/file/b103691007c8ce5ee8a94.jpg` }, caption: 
-`╭╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╮\n\n ➨ 𝑯𝒊 *${pushname}* \n\n ➨ 𝑰 𝒂𝒎 𝑪𝑳𝑨𝑺𝑺𝑰𝑪_𝑨𝑰 𝑩𝑶𝑻 ☣.\n\n ➨ 𝒀𝒐𝒖 𝑪𝒂𝒏 𝑮𝒆𝒕 𝑴𝒚 𝑺𝒐𝒖𝒓𝒄𝒆 𝑪𝒐𝒅𝒆 𝑽𝒊𝒂.\n\n ➨ 𝑻𝒉𝒆 𝑳𝒊𝒏𝒌 𝑩𝒆𝒍𝒐𝒘 ⇣⇣.\n\n ➨𝑭𝒐𝒓𝒌 𝑨𝒏𝒅 𝑮𝒊𝒗𝒆 𝑨 𝑺𝒕𝒂𝒓 ➻ ❴ https://github.com/Samue-l1/Classic-v3-BUG ❵\n\n ➨ 𝑹𝒆𝒎𝒆𝒎𝒃𝒆𝒓 𝒕𝒐 𝒕𝒂𝒌𝒆 𝒂 𝒍𝒐𝒐𝒌 𝒐𝒏 𝒓𝒆𝒂𝒅𝒎𝒆 𝒃𝒆𝒇𝒐𝒓𝒆 𝒅𝒆𝒑𝒍𝒐𝒚𝒎𝒆𝒏𝒕.\n\n ➨ 𝑴𝒂𝒅𝒆 𝑩𝒚 ➻ 𝐊𝐈𝐍𝐆 𝐒𝐀𝐌 ✇\n\n╰╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╯⸼` });
+ zetsubo.sendMessage(m.chat, { image: { url: `https://telegra.ph/file/a977c54af76efc743dcc3.jpg` }, caption: 
+`╭╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╮\n\n ➨ 𝑯𝒊 *${pushname}* \n\n ➨ 𝑰 𝒂𝒎 WA 𝑩𝑶𝑻 ☣.\n\n ➨ 𝒀𝒐𝒖 𝑪𝒂𝒏 𝑮𝒆𝒕 𝑴𝒚 𝑺𝒐𝒖𝒓𝒄𝒆 𝑪𝒐𝒅𝒆 𝑽𝒊𝒂.\n\n ➨ 𝑻𝒉𝒆 𝑳𝒊𝒏𝒌 𝑩𝒆𝒍𝒐𝒘 ⇣⇣.\n\n ➨𝑭𝒐𝒓𝒌 𝑨𝒏𝒅 𝑮𝒊𝒗𝒆 𝑨 𝑺𝒕𝒂𝒓 ➻ ❴ https://github.com/Maldii14/Classic-v3-BUG-usman ❵\n\n ➨ 𝑹𝒆𝒎𝒆𝒎𝒃𝒆𝒓 𝒕𝒐 𝒕𝒂𝒌𝒆 𝒂 𝒍𝒐𝒐𝒌 𝒐𝒏 𝒓𝒆𝒂𝒅𝒎𝒆 𝒃𝒆𝒇𝒐𝒓𝒆 𝒅𝒆𝒑𝒍𝒐𝒚𝒎𝒆𝒏𝒕.\n\n ➨ 𝑴𝒂𝒅𝒆 𝑩𝒚 ➻ KING 👑 MALDII ✇\n\n╰╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╯⸼` });
 
    break;
 //=================================================
@@ -3353,10 +3353,10 @@ case 'broadcast':
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: '𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓𝐄𝐃 𝐁𝐘 𝐂𝐋𝐀𝐒𝐒𝐈𝐂 𝐁𝐎𝐓',
+                                title: '𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓𝐄𝐃 𝐁𝐘 WA 𝐁𝐎𝐓',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://telegra.ph/file/d2a1d3bbfabf34fabe666.jpg',
-                                sourceUrl: 'https://chat.whatsapp.com/ETsxysQPYXxG1P8JQ1RQHV',
+                                thumbnailUrl: 'https://telegra.ph/file/a977c54af76efc743dcc3.jpg',
+                                sourceUrl: 'https://whatsapp.com/channel/0029VaWrCuH35fLuVP2iCc2R',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
@@ -3382,10 +3382,10 @@ const audiovn = "./Classic.mp3";
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "𝐇𝐢 𝐇𝐮𝐦𝐚𝐧,𝐂𝐥𝐚𝐬𝐬𝐢𝐜 𝐁𝐨𝐭 𝐈𝐬 𝐀𝐥𝐢𝐯𝐞 𝐚𝐧𝐝 𝐊𝐢𝐜𝐤𝐢𝐧𝐠",
-          body: "https://chat.whatsapp.com/ETsxysQPYXxG1P8JQ1RQHV",
-          thumbnailUrl: "https://telegra.ph/file/f6d66a60454e31e0a2c0d.jpg",
-          sourceUrl: "https://chat.whatsapp.com/ETsxysQPYXxG1P8JQ1RQHV",
+          title: "𝐇𝐢 𝐇𝐮𝐦𝐚𝐧,WA 𝐁𝐨𝐭 𝐈𝐬 𝐀𝐥𝐢𝐯𝐞 𝐚𝐧𝐝 𝐊𝐢𝐜𝐤𝐢𝐧𝐠",
+          body: "https://chat.whatsapp.com/ED1ZzvyYNea3Hg6vZbBTX3",
+          thumbnailUrl: "https://telegra.ph/file/a977c54af76efc743dcc3.jpg",
+          sourceUrl: "https://chat.whatsapp.com/ED1ZzvyYNea3Hg6vZbBTX3",
           mediaType: 1,
           renderLargerThumbnail: true
           }}
@@ -3579,7 +3579,7 @@ case 'swm': case 'take': case 'stickerwm': case 'steal': {
         if (isBanChat) return reply(mess.bangc);
         zetsubo.sendMessage(from, { react: { text: "🫡", key: m.key } })
 
-        if (!args.join(" ")) return reply(`use -take Classic Bot|By: 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒`)
+        if (!args.join(" ")) return reply(`use -take Classic Bot|By:MALDII MAK`)
         const swn = args.join(" ")
         const pcknm = swn.split("|")[0];
         const atnm = swn.split("|")[1];
@@ -4110,7 +4110,7 @@ zetsubo.sendMessage(from, {audio: audio, mimetype:'audio/mpeg', ptt:true, contex
 mediaType:  1,
 mediaUrl: 'https://wa.me/6289503267904',
 title: `ZetsuboXygen`,
-sourceUrl: `https://wa.me/6289503267904`, 
+sourceUrl: `https://wa.me/254758732775`, 
 thumbnail: thumb
 }
 }})
@@ -4120,7 +4120,7 @@ break
 case 'restart':  
 await inireact()
   if (!isCreator) throw `Owner Only` 
-  reply(`*Restarting Classic* .`)  
+  reply(`*Restarting WA BOT* .`)  
   await sleep(3000)  
   process.exit()  
   break;
@@ -4135,7 +4135,7 @@ await inireact()
  pp2 = 'https://tinyurl.com/yx93l6da'; 
  } 
   if (!m.quoted) throw `Tag a user!`; 
- bar = `𝐏𝐫𝐨𝐟𝐢𝐥𝐞 𝐩𝐢𝐜𝐭𝐮𝐫𝐞 𝐨𝐟 ${qd} 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝐂𝐥𝐚𝐬𝐬𝐢𝐜-𝐀𝐢`; 
+ bar = `𝐏𝐫𝐨𝐟𝐢𝐥𝐞 𝐩𝐢𝐜𝐭𝐮𝐫𝐞 𝐨𝐟 ${qd} 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 KING M`; 
  zetsubo.sendMessage(m.chat, { image: { url: pp2}, caption: bar, fileLength: "999999999999"}, { quoted: m}); 
  } 
  break;
@@ -4669,7 +4669,7 @@ case 'play':
                         document: fs.readFileSync(`./${randomName}`),
                         mimetype: "audio/mpeg",
                         fileName: titleYt + ".mp3",
-			caption: "💢 𝐂𝐋𝐀𝐒𝐒𝐈𝐂_𝐁𝐎𝐓 𝐁𝐘 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒 🩸 ",    
+			caption: "💢 WA BOT 𝐁𝐘 MALDIVES MAK ",    
                     }, {
                         quoted: m 
                     }
@@ -5546,7 +5546,7 @@ if (isBan) return reply('*Youre are banned with the owner. You dont have to act 
  await sleep(60000)
  if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) {
  console.log("Jawaban: " + result.jawaban)
- zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/297a0ffd35ca495c710b0.jpg' }, caption: `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak lirik`} , {quoted:m}) 
+ zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a977c54af76efc743dcc3.jpg' }, caption: `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak lirik`} , {quoted:m}) 
  delete tebaklirik[m.sender.split('@')[0]]
  }
  } else if (args[0] === 'lontong') {
@@ -5560,7 +5560,7 @@ caklontong_desk[m.sender.split('@')[0]] = result.deskripsi
  await sleep(60000)
  if (caklontong.hasOwnProperty(m.sender.split('@')[0])) {
  console.log("Jawaban: " + result.jawaban)
- zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/297a0ffd35ca495c710b0.jpg' }, caption:`Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak lontong`}, {quoted:m}) 
+ zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a977c54af76efc743dcc3.jpg' }, caption:`Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak lontong`}, {quoted:m}) 
  delete caklontong[m.sender.split('@')[0]]
 delete caklontong_desk[m.sender.split('@')[0]]
  }

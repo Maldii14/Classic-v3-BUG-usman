@@ -22,25 +22,25 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 global.gr = 'https://whatsapp.com/channel/0029VaWrCuH35fLuVP2iCc2R'
-global.ig = 'ano_nymous_sam' // ubah aja
-global.email = 'samuelcircute@gmail.com' //serah
+global.ig = 'Maldives_mak' // ubah aja
+global.email = 'maldivesmak@gmail.com' //serah
 global.region = 'kenya' // serah
 //—————「 Set Nama Own & Bot 」—————//
 global.ownername = 'ꪶ༺M.m֎⸙༻' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
 global.owner = ['254758732775'] // ubah aja pake nomor lu
 //==========================zetsuboclient=======================//
-global.botname = '⫹maldives⫺' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
-global.packname = '⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺' // ubah aja ini nama sticker
-global.author = '༻࿇𝐊𝐈𝐍𝐆_𝐒𝐀𝐌❖༺' // ubah aja ini nama sticker
-global.prefa = ['','!','.',',','🐤','🗿']
+global.botname = 'maldives' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
+global.packname = 'WA BOT' // ubah aja ini nama sticker
+global.author = 'M.MAK' // ubah aja ini nama sticker
+global.prefa = ['*']
 global.sessionName = 'classicsession'  //Gausah Juga
 global.sp = '⭔' // Gausah Juga
-global.autoviewstatus = process.env.autoviewstatus || "false"
+global.autoviewstatus = process.env.autoviewstatus || "true"
 global.wlcm = []
 global.wlcmm = []
 global.anticall = true
-global.rn = 'available'
+global.rn = 'unavailable'
 /*
 Declaring Menu type
 
@@ -50,7 +50,7 @@ V3 = Text
 V4 = Button
 
 */
-global.menutype = "v2"
+global.menutype = "v4"
 //=================================================//
 //Gausah Juga
 global.limitawal = {

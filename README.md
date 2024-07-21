@@ -2,7 +2,7 @@
 
 <h1 align="center">ꪶWA BOTꫂ<br></h1>
 <p align="center">
-<img src="[https://telegra.ph/file/a2e5d1851171e21e7ba82.jpg](https://telegra.ph/file/9a52898d70529756ef13e.jpg)"/>
+<img src="[https://telegra.ph/file/9a52898d70529756ef13e.jpg]"/>
 </p>
 
 <p align="center">
